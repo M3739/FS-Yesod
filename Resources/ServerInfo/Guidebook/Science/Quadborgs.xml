@@ -13,6 +13,7 @@
 
   ## Chassis
   Quadborg chassis are similiar in function to the cyborg chassis, bearing the same nuances revolving [color=#a4885c]radio communication[/color] and [color=#a4885c]all-access[/color] except command areas. [bold]Quadborg chassis can fit up to 4 modules in total.[/bold] The Service chassis also comes with additional, purpose-built, [italic]"auxillary hardware"[/italic] to allow for [italic]exemplary performance[/italic] in their assignments.
+  Quadborg chassis are similiar in function to the cyborg chassis, bearing the same nuances revolving [color=#a4885c]radio communication[/color] and [color=#a4885c]all-access[/color] except command areas. [bold]Quadborg chassis can fit up to 4 modules, with exception to the Service chassis which while it can fit 4 modules, it has some built in modules as well,[/bold] made possible from it's [italic]"auxillary hardware"[/italic] purpose-built for it.
   <Box>
   <GuideEntityEmbed Entity="BorgChassisQuadserv" Caption="Service" Rotation="270"/>
   <GuideEntityEmbed Entity="BorgChassisQuad" Caption="Security" Rotation="270"/>
