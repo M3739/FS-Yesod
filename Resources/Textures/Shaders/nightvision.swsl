@@ -58,7 +58,7 @@ void fragment() {
 
     //Floof - Add snow-like static noise for realism
     highp vec2 snow_uv = FRAGCOORD.xy * 0.005; // Static scaled to screen space
-    lowp float snow = snow_noise(snow_uv) * NvdSnow;
+    lowp float snow = snow_noise(snow_uv) * nvdsnow;
     
     //Floof - Apply snow effect to the final color
     color.rgb += snow * 0.15;

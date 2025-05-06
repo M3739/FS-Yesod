@@ -34,6 +34,8 @@ public sealed class BaseSwitchableOverlay<TComp> : Overlay where TComp : Switcha
         _shader.SetParameter("tint", Comp.Tint);
         _shader.SetParameter("luminance_threshold", Comp.Strength);
         _shader.SetParameter("noise_amount", Comp.Noise);
+        // _shader.SetParameter("nvdsnow", Comp.NvdSnow); Note to self M, this is where it gets passed onto the shader.
+        // _shader.SetParameter("darkvision", Comp.Darkvision);
 
         var worldHandle = args.WorldHandle;
 

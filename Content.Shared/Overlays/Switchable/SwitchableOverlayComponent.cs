@@ -45,4 +45,6 @@ public sealed class SwitchableVisionOverlayComponentState : IComponentState
     public SoundSpecifier? DeactivateSound;
     public EntProtoId? ToggleAction;
     public float LightRadius;
+    public float NvdSnow;
+    public float Darkvision;
 }
