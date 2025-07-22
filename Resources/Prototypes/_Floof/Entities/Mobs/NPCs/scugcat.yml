@@ -40,6 +40,7 @@
     interfaces:
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
+# Github are you okay?
       enum.StrippingUiKey.Key:
         type: StrippableBoundUserInterface
 
